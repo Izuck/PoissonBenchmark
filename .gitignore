@@ -3,9 +3,3 @@ __pycache__/
 *.py[cod]
 *.log
 *.png
-benchmarks/
-.codex*/
-.chatgpt*/
-.agents/
-AGENTS.md
-.env*
