@@ -1,0 +1,39 @@
+{
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "memory": {
+    "rss": 89980928,
+    "vms": 104058880,
+    "num_page_faults": 6715222,
+    "peak_wset": 2813640704,
+    "wset": 89980928,
+    "peak_paged_pool": 340720,
+    "paged_pool": 324112,
+    "peak_nonpaged_pool": 42560,
+    "nonpaged_pool": 33720,
+    "pagefile": 104058880,
+    "peak_pagefile": 3488436224,
+    "private": 104058880
+  },
+  "memory_scope": "solver worker lifetime; includes warm-up, interpolation and accuracy checks"
+}

@@ -1,0 +1,234 @@
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+Physical group name bottom has 0 Tetrahedra.
+Physical group name bottom has 0 Triangles.
+Physical group name bottom has 512 Lines.
+Physical group name bottom has 513 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 0 Triangles.
+Physical group name gate has 512 Lines.
+Physical group name gate has 513 Points.
+Physical group name interface has 0 Tetrahedra.
+Physical group name interface has 0 Triangles.
+Physical group name interface has 512 Lines.
+Physical group name interface has 513 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 131072 Triangles.
+Physical group name oxide has 197248 Lines.
+Physical group name oxide has 66177 Points.
+Physical group name silicon has 0 Tetrahedra.
+Physical group name silicon has 393216 Triangles.
+Physical group name silicon has 590720 Lines.
+Physical group name silicon has 197505 Points.
+Device cap has 263169 coordinates with max index 263168
+Region oxide has 66177 nodes.
+Region silicon has 197505 nodes.
+Contact bottom in region silicon with 513 nodes
+Contact gate in region oxide with 513 nodes
+Adding interface interface with 513, 513 nodes
+number of equations 263682
+Iteration: 0
+  Device: "cap"	RelError: 2.00000e+00	AbsError: 1.00000e+00
+    Region: "oxide"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "silicon"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 7.50000e-01
+Iteration: 1
+  Device: "cap"	RelError: 1.97772e-11	AbsError: 6.85804e-12
+    Region: "oxide"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+      Equation: "Poisson"	RelError: 7.07384e-12	AbsError: 5.30538e-12
+    Region: "silicon"	RelError: 1.27034e-11	AbsError: 6.85804e-12
+      Equation: "Poisson"	RelError: 1.27034e-11	AbsError: 6.85804e-12

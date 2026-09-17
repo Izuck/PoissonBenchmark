@@ -1,0 +1,56 @@
+{
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 1,
+      "prefix": "mkl_rt",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Library\\bin\\mkl_rt.2.dll",
+      "version": "2025.3-Product",
+      "threading_layer": "intel"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "<PROJECT_ROOT>\\benchmarks\\.venv\\Library\\bin\\libiomp5md.dll",
+      "version": null
+    }
+  ],
+  "memory": {
+    "rss": 343330816,
+    "vms": 343638016,
+    "num_page_faults": 2062802,
+    "peak_wset": 818388992,
+    "wset": 343330816,
+    "peak_paged_pool": 728608,
+    "paged_pool": 711976,
+    "peak_nonpaged_pool": 45008,
+    "nonpaged_pool": 37120,
+    "pagefile": 343638016,
+    "peak_pagefile": 827457536,
+    "private": 343638016
+  },
+  "memory_scope": "solver worker lifetime; includes warm-up, interpolation and accuracy checks"
+}

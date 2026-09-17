@@ -1,0 +1,63 @@
+{
+  "assembly_s": 0.003096100001130253,
+  "solve_s": 2.044795299996622,
+  "solver_info": {
+    "converged": true,
+    "iterations": [
+      {
+        "devices": [
+          {
+            "absolute_error": 1.0000125499454486,
+            "name": "bench",
+            "regions": [
+              {
+                "absolute_error": 1.0000125499454486,
+                "equations": [
+                  {
+                    "absolute_error": 1.0000125499454486,
+                    "absolute_error_node": 33024,
+                    "name": "Poisson",
+                    "relative_error": 0.9999999999000012,
+                    "relative_error_node": 33024
+                  }
+                ],
+                "name": "bulk",
+                "relative_error": 0.9999999999000012
+              }
+            ],
+            "relative_error": 0.9999999999000012
+          }
+        ],
+        "iteration": 0
+      },
+      {
+        "devices": [
+          {
+            "absolute_error": 3.61664642629164e-14,
+            "name": "bench",
+            "regions": [
+              {
+                "absolute_error": 3.61664642629164e-14,
+                "equations": [
+                  {
+                    "absolute_error": 3.61664642629164e-14,
+                    "absolute_error_node": 28957,
+                    "name": "Poisson",
+                    "relative_error": 5.5839245026539845e-14,
+                    "relative_error_node": 28957
+                  }
+                ],
+                "name": "bulk",
+                "relative_error": 5.5839245026539845e-14
+              }
+            ],
+            "relative_error": 5.5839245026539845e-14
+          }
+        ],
+        "iteration": 1
+      }
+    ],
+    "number_of_equations": 66049
+  },
+  "iterations": 2
+}

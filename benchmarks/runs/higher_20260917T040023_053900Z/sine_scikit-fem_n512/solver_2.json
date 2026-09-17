@@ -1,0 +1,9 @@
+{
+  "assembly_s": 1.7570357999939006,
+  "solve_s": 0.041058900009375066,
+  "iterations": 1,
+  "solver_info": {
+    "method": "direct LU",
+    "tolerance": "not applicable"
+  }
+}

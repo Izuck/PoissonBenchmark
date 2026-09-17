@@ -1,0 +1,124 @@
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Physical group name boundary has 0 Tetrahedra.
+Physical group name boundary has 0 Triangles.
+Physical group name boundary has 2048 Lines.
+Physical group name boundary has 2048 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 524288 Triangles.
+Physical group name bulk has 787456 Lines.
+Physical group name bulk has 263169 Points.
+Device bench has 263169 coordinates with max index 263168
+Region bulk has 263169 nodes.
+Contact boundary in region bulk with 2048 nodes
+number of equations 263169
+Iteration: 0
+  Device: "bench"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "Poisson"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+Iteration: 1
+  Device: "bench"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+    Region: "bulk"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+      Equation: "Poisson"	RelError: 2.91007e-13	AbsError: 2.76287e-13
+Transforming over 1000 vertices to C_CONTIGUOUS.
+Transforming over 1000 elements to C_CONTIGUOUS.
+Transforming over 1000 vertices to C_CONTIGUOUS.
+Transforming over 1000 elements to C_CONTIGUOUS.

@@ -1,0 +1,53 @@
+{
+  "run_id": "higher_20260917T040023_053900Z",
+  "meshes": [
+    128,
+    256,
+    512
+  ],
+  "repeats": 5,
+  "quick": false,
+  "cpu_model": "Intel(R) Core(TM) Ultra 9 285H",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "physical_cpus": 16,
+  "logical_cpus": 16,
+  "ram_bytes": 33917235200,
+  "command": "<PROJECT_ROOT>\\benchmarks\\.venv\\Scripts\\python.exe benchmarks/baseline.py",
+  "packages": {
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "devsim": "2.11.0",
+    "fonttools": "4.65.0",
+    "intel-cmplr-lib-ur": "2025.3.3",
+    "intel-openmp": "2025.3.3",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "mkl": "2025.3.0",
+    "numpy": "2.5.3",
+    "onemkl-license": "2025.3.0",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "psutil": "7.2.2",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "scikit-fem": "12.0.2",
+    "scipy": "1.18.1",
+    "six": "1.17.0",
+    "tbb": "2022.3.1",
+    "tcmlib": "1.5.0",
+    "threadpoolctl": "3.7.0",
+    "umf": "1.0.3"
+  },
+  "note": "Sequential CPU workers; one compute thread each. Parent waits without polling. Background activity uncontrolled.",
+  "code_hashes": {
+    "baseline.py": "fbf3b6d7e951a7d4cac894740f5686e4b13da4b3f67b6c22f27ababe6af5e784",
+    "adapters.py": "e70d36fb90b886be32204aa060698ba0337ff6f41688d2082bc0d9e7905f3b2b",
+    "moscap.py": "276ddd7790e707c922baea537d5ee7a35644b7298f1a1205d4336bb28fd5da7a",
+    "problems.py": "cfd1d116b96c2548e4e5ed1a25d91c619f79c84a1ee4f2a8a24f24f2dcc7ed71",
+    "checks.py": "237eb247d51dd09cf2a16236810730639399bdfc47b8a713ec569fd33015d03b",
+    "scaling.py": "d85623aea49f149676fb2538f1e8003c6fb4b6279fe58a7453f879bdc54edd79",
+    "present.py": "ca0ad74d6508be9e6a9b2065053705ad7e6bc617ba71a59acc053a073e11c9a3"
+  }
+}

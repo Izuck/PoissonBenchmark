@@ -1,0 +1,7 @@
+{
+  "case": "moscap",
+  "tool": "scikit-fem",
+  "n": 128,
+  "repeats": 5,
+  "folder": "<PROJECT_ROOT>\\benchmarks\\runs\\higher_20260917T040023_053900Z\\moscap_scikit-fem_n128"
+}

@@ -1,0 +1,92 @@
+{
+  "assembly_s": 0.0018143999914173037,
+  "solve_s": 4.458732600003714,
+  "iterations": 2,
+  "solver_info": {
+    "converged": true,
+    "iterations": [
+      {
+        "devices": [
+          {
+            "absolute_error": 1.0,
+            "name": "cap",
+            "regions": [
+              {
+                "absolute_error": 1.0,
+                "equations": [
+                  {
+                    "absolute_error": 1.0,
+                    "absolute_error_node": 128,
+                    "name": "Poisson",
+                    "relative_error": 0.9999999999,
+                    "relative_error_node": 128
+                  }
+                ],
+                "name": "oxide",
+                "relative_error": 0.9999999999
+              },
+              {
+                "absolute_error": 0.7500000000053056,
+                "equations": [
+                  {
+                    "absolute_error": 0.7500000000053056,
+                    "absolute_error_node": 4619,
+                    "name": "Poisson",
+                    "relative_error": 0.9999999998666667,
+                    "relative_error_node": 4619
+                  }
+                ],
+                "name": "silicon",
+                "relative_error": 0.9999999998666667
+              }
+            ],
+            "relative_error": 1.9999999997666666
+          }
+        ],
+        "iteration": 0
+      },
+      {
+        "devices": [
+          {
+            "absolute_error": 6.858040551361602e-12,
+            "name": "cap",
+            "regions": [
+              {
+                "absolute_error": 5.305376780462127e-12,
+                "equations": [
+                  {
+                    "absolute_error": 5.305376780462127e-12,
+                    "absolute_error_node": 1419,
+                    "name": "Poisson",
+                    "relative_error": 7.073835706339656e-12,
+                    "relative_error_node": 1419
+                  }
+                ],
+                "name": "oxide",
+                "relative_error": 7.073835706339656e-12
+              },
+              {
+                "absolute_error": 6.858040551361602e-12,
+                "equations": [
+                  {
+                    "absolute_error": 6.858040551361602e-12,
+                    "absolute_error_node": 11856,
+                    "name": "Poisson",
+                    "relative_error": 1.2703360186749261e-11,
+                    "relative_error_node": 11856
+                  }
+                ],
+                "name": "silicon",
+                "relative_error": 1.2703360186749261e-11
+              }
+            ],
+            "relative_error": 1.9777195893088918e-11
+          }
+        ],
+        "iteration": 1
+      }
+    ],
+    "number_of_equations": 263682
+  },
+  "interface_max_jump": 0.0
+}
