@@ -50,4 +50,10 @@ Measured on an Intel Core Ultra 9 285H, 31.6 GiB usable RAM, Windows 11; CPU onl
 | DEVSIM | Regular | 2.244 | 1.742e-16 |
 | DEVSIM | Sine | 2.299 | 2.174e-5 |
 
+The plots below come from this measured run. Running either script regenerates its image.
+
+![scikit-fem: regular and sine at N=256, calculated voltage versus exact solution](scikit_benchmark.png)
+
+![DEVSIM: regular and sine at N=256, calculated voltage versus exact solution](devsim_benchmark.png)
+
 Both tools passed both cases. Background activity and filesystem caches were not controlled; timings vary between runs. The previous framework and measurements remain in Git history.
