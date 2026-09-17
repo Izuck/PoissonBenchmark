@@ -1,29 +1,11 @@
-# Local Python environments and generated files
 .venv/
-venv/
-myenv/
 __pycache__/
 *.py[cod]
-.mplconfig/
-.benchmark-cache/
-*.npy
-*.npz
-
-# Keep the published measurements; new runs remain local.
-benchmarks/runs/*
-!benchmarks/runs/higher_20260917T040023_053900Z/
-
-# Local assistant/editor state and conversation material
-AGENTS.md
-CLAUDE.md
+*.log
+*.png
+benchmarks/
 .codex*/
-.agents/
 .chatgpt*/
-Context/
-tmp/
-.env
-.env.*
-.vscode/
-.idea/
-Thumbs.db
-.DS_Store
+.agents/
+AGENTS.md
+.env*

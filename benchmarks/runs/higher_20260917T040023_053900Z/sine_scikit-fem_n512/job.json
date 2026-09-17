@@ -1,7 +1,0 @@
-{
-  "case": "sine",
-  "tool": "scikit-fem",
-  "n": 512,
-  "repeats": 5,
-  "folder": "<PROJECT_ROOT>\\benchmarks\\runs\\higher_20260917T040023_053900Z\\sine_scikit-fem_n512"
-}

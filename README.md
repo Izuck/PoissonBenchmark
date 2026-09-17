@@ -1,46 +1,53 @@
-# Poisson Benchmark
+# Two simple Poisson benchmarks
 
-Two simple analytical tests, comparing **DEVSIM** and **scikit-fem**:
+**Two scripts. Two cases. N = 256.** Each script prints a results table and uses Matplotlib to plot the calculated voltage against the exact answer.
 
-| Case | What it checks |
-|---|---|
-| **Regular capacitor** | Voltage through silicon and oxide; straight-line voltage in each layer. |
-| **Sine** | A smooth 2D field, `sin(pi*x) * sin(pi*y)`; error should fall as the mesh gets finer. |
+- [scikit_benchmark.py](scikit_benchmark.py): scikit-fem linear triangular elements, solved with SciPy SuperLU.
+- [devsim_benchmark.py](devsim_benchmark.py): DEVSIM, solved with MKL PARDISO. It uses scikit-fem only for mesh generation and error integration.
 
-Both tools passed at **128, 256 and 512 subdivisions**, with five timed repetitions after one excluded warm-up.
+## Cases
 
-[Measured results](benchmarks/runs/higher_20260917T040023_053900Z/report/benchmark_summary.md) · [Code walkthrough](benchmarks/CODE_MAP.md) · [Equations and timing](benchmarks/METHOD.md)
+**Regular:** a 100 nm square capacitor, with 90 nm silicon below 10 nm oxide. Relative permittivities are 11.7 and 3.9, top voltage is 1 V, bottom is 0 V, and sides are insulated. There is no charge. The exact voltage is linear within each material, reaching 0.75 V at the interface.
 
-![Runtime and accuracy](benchmarks/runs/higher_20260917T040023_053900Z/report/scaling.png)
+**Sine:** a unit square with zero boundary voltage and source `2*pi^2*sin(pi*x)*sin(pi*y)`. The exact answer is `sin(pi*x)*sin(pi*y)`.
 
-## Run it
+## Run
 
-Tested on **64-bit Windows 11 with Python 3.12.14**. From this repository folder, create a new local environment once:
+Tested with Python 3.12.14 on 64-bit Windows. Create a local environment once:
 
 ```powershell
-py -3.12 -m venv benchmarks/.venv
-& benchmarks/.venv/Scripts/python.exe -m pip install -r benchmarks/requirements-lock.txt
+py -3.12 -m venv .venv
+& .venv/Scripts/python.exe -m pip install numpy==2.5.3 scipy==1.18.1 scikit-fem==12.0.2 devsim==2.11.0 mkl==2025.3.0 matplotlib==3.11.2
 ```
 
-Use Python 3.12.14 to match the recorded interpreter exactly. The lock file records the exact package versions used; the runner currently requires Windows.
-
-Then double-click **Run Benchmark.cmd**, or run:
+Run either script:
 
 ```powershell
-& benchmarks/.venv/Scripts/python.exe benchmarks/baseline.py --quick
-& benchmarks/.venv/Scripts/python.exe benchmarks/baseline.py
+& .venv/Scripts/python.exe scikit_benchmark.py
+& .venv/Scripts/python.exe devsim_benchmark.py
 ```
 
-The first command checks the same two cases at 16, 32 and 64 subdivisions with one measured repetition. The second runs the full benchmark. Each creates a new folder in `benchmarks/runs/`; open its `report/benchmark_summary.html`.
+Each script runs both cases, shows one figure with two panels, and saves that figure next to the script. The panels show a vertical slice through the middle of the domain. Runtime and full-domain error appear in the titles. DEVSIM saves its verbose diagnostics to `devsim_benchmark.log`.
 
-## What is included
+## Reading the code and results
 
-- Seven Python files: the runner, package adapters, analytical checks, and report helpers.
-- Exact package versions, numerical settings, and a beginner-friendly code map.
-- The completed run's raw timings, solver logs, hardware metadata, source snapshot, and plots.
+Both files follow the same sequence: `exact()` gives the known answer; `solve()` builds and solves one case, then checks it; the bottom loop repeats each case and produces the table and plot. No shared project modules or separate plotting script are needed.
 
-The published run used an **Intel Core Ultra 9 285H, 31.6 GiB usable RAM, Windows 11**, one CPU computation thread, and no GPU. Timings include mesh setup, solving, interpolation, and saving the field; accuracy checks are outside the timer.
+Each case gets one excluded warm-up and five independent solves. The table prints all five times, their median, and the worst relative L2 error. Each solve rebuilds the mesh and factorization. One CPU computation thread is requested through process-local environment variables.
 
-Generated voltage arrays (~144 MiB per full run) and environments are kept out of Git. Rerunning creates the arrays. Published logs replace the original computer's project-directory prefix with `<PROJECT_ROOT>`; numerical measurements and source snapshots are unchanged. The stored audit describes the original local run, including arrays that are not uploaded.
+**Timed:** mesh creation, equation assembly, factorization, solving, and obtaining nodal voltage. **Excluded:** imports, analytical checks, cleanup, and plotting. There are no voltage-array exports, so these timings differ in scope from the earlier benchmark.
 
-For a future solver or surrogate, use the same equations, boundaries, reference formulas, and error measurements. Compare runtime at comparable accuracy and state the timing scope. These are baseline checks, not a complete MOSFET simulation or a validation dataset covering general device behavior.
+**Checked:** full-domain relative error, integrated over triangles with order-6 quadrature, must be below `1e-10` for regular and `1e-3` for sine. Boundary error must be below `1e-10`. The plot is just a centerline view; the accuracy check covers the whole domain. These are baseline thresholds, not final solver requirements. A single mesh size cannot demonstrate convergence or general surrogate accuracy.
+
+## Example results
+
+Measured on an Intel Core Ultra 9 285H, 31.6 GiB usable RAM, Windows 11; CPU only, no GPU. Median seconds from five repetitions at N=256:
+
+| Tool | Case | Seconds | Relative L2 error |
+|---|---|---:|---:|
+| scikit-fem | Regular | 0.388 | 4.709e-13 |
+| scikit-fem | Sine | 0.700 | 4.226e-5 |
+| DEVSIM | Regular | 2.244 | 1.742e-16 |
+| DEVSIM | Sine | 2.299 | 2.174e-5 |
+
+Both tools passed both cases. Background activity and filesystem caches were not controlled; timings vary between runs. The previous framework and measurements remain in Git history.

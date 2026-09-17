@@ -1,7 +1,0 @@
-{
-  "case": "sine",
-  "tool": "devsim",
-  "n": 128,
-  "repeats": 5,
-  "folder": "<PROJECT_ROOT>\\benchmarks\\runs\\higher_20260917T040023_053900Z\\sine_devsim_n128"
-}

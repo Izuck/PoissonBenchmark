@@ -1,7 +1,0 @@
-{
-  "case": "moscap",
-  "tool": "devsim",
-  "n": 512,
-  "repeats": 5,
-  "folder": "<PROJECT_ROOT>\\benchmarks\\runs\\higher_20260917T040023_053900Z\\moscap_devsim_n512"
-}
